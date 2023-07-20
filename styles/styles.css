@@ -1,0 +1,144 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@600&display=swap');
+
+/* common styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #FFF;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+
+/* top players styles */
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+
+}
+
+.top-players {
+    margin-bottom: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+    color: #000;
+}
+
+/* top-blogs */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.blogs {
+    display: flex;
+}
+
+.blog-thumbnail {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-content {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+    color: #000;
+}
+
+.author-name {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.author-name a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+}
+
+/* courses */
+
+.course-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course {
+    margin-right: 24px;
+}
+
+.course img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-title {
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+}
+
+.course a {
+    color: #ED6B4F;
+    font-size: 14.691px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.rating img {
+    width: 20px;
+    height: 20px;
+}
